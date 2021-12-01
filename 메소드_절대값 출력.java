@@ -6,13 +6,13 @@ public class Exam05 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Ã¹¹øÂ° Á¤¼ö ÀÔ·Â : ");
+		System.out.print("ì²«ë²ˆì§¸ ì •ìˆ˜ ì…ë ¥ : ");
 		int num1 = sc.nextInt();
-		System.out.print("µÎ¹øÂ° Á¤¼ö ÀÔ·Â : ");
+		System.out.print("ë‘ë²ˆì§¸ ì •ìˆ˜ ì…ë ¥ : ");
 		int num2 = sc.nextInt();
 
 		int result = getAbsoluteValue(num1, num2);
-		System.out.println("°á°ú È®ÀÎ : " + result);
+		System.out.println("ê²°ê³¼ í™•ì¸ : " + result);
 
 	}
 
