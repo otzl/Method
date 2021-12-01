@@ -15,7 +15,7 @@ public class Exam06 {
 //			System.out.print(array[i] + " ");
 //		}
 		
-		// Arrays Å¬·¡½ºÀÇ toString() ÇÔ¼ö »ç¿ëÇÏ±â
+		// Arrays Ã…Â¬Â·Â¡Â½ÂºÃ€Ã‡ toString() Ã‡Ã”Â¼Ã¶ Â»Ã§Â¿Ã«Ã‡ÃÂ±Ã¢
 		
 		System.out.println(Arrays.toString(array));
 		
