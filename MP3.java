@@ -8,14 +8,14 @@ public class Exam02 {
 		Scanner sc = new Scanner(System.in);
 		ArrayList<String> musicList = new ArrayList<String>();
 
-//		System.out.println("[1]³ë·¡Ãß°¡ [2]³ë·¡»èÁ¦ [3]³ë·¡°Ë»ö [4]Á¾·á");
+//		System.out.println("[1]ë…¸ëž˜ì¶”ê°€ [2]ë…¸ëž˜ì‚­ì œ [3]ë…¸ëž˜ê²€ìƒ‰ [4]ì¢…ë£Œ");
 		while (true) {
-			System.out.println("[1]³ë·¡Ãß°¡ [2]³ë·¡»èÁ¦ [3]³ë·¡°Ë»ö [4]Á¾·á");
+			System.out.println("[1]ë…¸ëž˜ì¶”ê°€ [2]ë…¸ëž˜ì‚­ì œ [3]ë…¸ëž˜ê²€ìƒ‰ [4]ì¢…ë£Œ");
 			int num = sc.nextInt();
 			if (num == 1) {
-				// ³ë·¡Á¦¸ñ Ãß°¡
-				// °ª Ãß°¡ ÈÄ Ãâ·Â
-				System.out.print("Ãß°¡ÇÒ ³ë·¡ ÀÔ·Â>>");
+				// ë…¸ëž˜ì œëª© ì¶”ê°€
+				// ê°’ ì¶”ê°€ í›„ ì¶œë ¥
+				System.out.print("ì¶”ê°€í•  ë…¸ëž˜ ìž…ë ¥>>");
 				String input = sc.next();
 				musicList.add(input);
 				System.out.println("===list===");
@@ -28,22 +28,22 @@ public class Exam02 {
 				for (int i = 0, j = 1; i < musicList.size(); i++, j++) {
 					System.out.println(j + ". " + musicList.get(i));
 				}
-				System.out.print("»èÁ¦ÇÒ ³ë·¡ ÀÔ·Â>>");
+				System.out.print("ì‚­ì œí•  ë…¸ëž˜ ìž…ë ¥>>");
 				int num1 = sc.nextInt();
 				musicList.remove(num1 - 1);
 
 			} else if (num == 3) {
-				System.out.print("°Ë»öÇÒ ³ë·¡ Á¦¸ñ ÀÔ·Â>> ");
+				System.out.print("ê²€ìƒ‰í•  ë…¸ëž˜ ì œëª© ìž…ë ¥>> ");
 				String search = sc.next();
 				boolean choice = false;
 				for (int i = 0, j = 1; i < musicList.size(); i++, j++) {
 					if (search.equals(musicList.get(i))) {
-						System.out.println("°Ë»öÇÑ ³ë·¡´Â " + (i + 1) + "¹ø¿¡ ÀÖ½À´Ï´Ù.");
+						System.out.println("ê²€ìƒ‰í•œ ë…¸ëž˜ëŠ” " + (i + 1) + "ë²ˆì— ìžˆìŠµë‹ˆë‹¤.");
 						choice = true;
 					}
 				}
 			} else if (num == 4) {
-				System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+				System.out.println("í”„ë¡œê·¸ëž¨ ì¢…ë£Œ");
 				break;
 			}
 
