@@ -6,13 +6,13 @@ public class Exam04 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Ã¹¹øÂ° Á¤¼ö ÀÔ·Â : ");
+		System.out.print("ì²«ë²ˆì§¸ ì •ìˆ˜ ì…ë ¥ : ");
 		int num1 = sc.nextInt();
-		System.out.print("µÎ¹øÂ° Á¤¼ö ÀÔ·Â : ");
+		System.out.print("ë‘ë²ˆì§¸ ì •ìˆ˜ ì…ë ¥ : ");
 		int num2 = sc.nextInt();
 
 		int result = close10(num1, num2);
-		System.out.println("10¿¡ °¡±î¿î ¼ö : " + result);
+		System.out.println("10ì— ê°€ê¹Œìš´ ìˆ˜ : " + result);
 
 	}
 
@@ -25,7 +25,7 @@ public class Exam04 {
 //		a = a > 0 ? a : (a * -1);
 //		b = b > 0 ? b : (b * -1);
 //
-		// Math class¿¡ ÀÖ´Â abs() Àı´ë°ª ÇÔ¼ö »ç¿ëÇÏ±â
+		// Math classì— ìˆëŠ” abs() ì ˆëŒ€ê°’ í•¨ìˆ˜ ì‚¬ìš©í•˜ê¸°
 				int a = Math.abs(10 - num1);
 				int b = Math.abs(10 - num2);
 				
