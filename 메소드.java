@@ -4,18 +4,18 @@ public class Exam03 {
 
 	public static void main(String[] args) {
 
-		// 2°³ÀÇ ¾ç¼ö¸¦ ÀÔ·Â ¹Ş¾Æ 2°³ÀÇ ¼ıÀÚ Áß ´õ Å« ¼ö¸¦ ¹İÈ¯ÇÏ´Â
-		// ¸Ş¼Òµå largerNumbers()À» ¸¸µé¾îº¸¼¼¿ä
-		// ¸¸¾à µÎ ¼ıÀÚ°¡ °°´Ù¸é 0À» ¹İÈ¯
+		// 2ê°œì˜ ì–‘ìˆ˜ë¥¼ ì…ë ¥ ë°›ì•„ 2ê°œì˜ ìˆ«ì ì¤‘ ë” í° ìˆ˜ë¥¼ ë°˜í™˜í•˜ëŠ”
+		// ë©”ì†Œë“œ largerNumbers()ì„ ë§Œë“¤ì–´ë³´ì„¸ìš”
+		// ë§Œì•½ ë‘ ìˆ«ìê°€ ê°™ë‹¤ë©´ 0ì„ ë°˜í™˜
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Ã¹¹øÂ° Á¤¼ö ÀÔ·Â>> ");
+		System.out.print("ì²«ë²ˆì§¸ ì •ìˆ˜ ì…ë ¥>> ");
 		int num1 = sc.nextInt();
-		System.out.print("µÎ¹øÂ° Á¤¼ö ÀÔ·Â>> ");
+		System.out.print("ë‘ë²ˆì§¸ ì •ìˆ˜ ì…ë ¥>> ");
 		int num2 = sc.nextInt();
 		int result = largerNumbers(num1, num2);
-		System.out.println("Å« ¼ö È®ÀÎ : " + result);
+		System.out.println("í° ìˆ˜ í™•ì¸ : " + result);
 
 	}
 
@@ -28,8 +28,8 @@ public class Exam03 {
 //			return 0;
 //		}
 		
-		// »ïÇ×¿¬»êÀÚ¸¦ ÅëÇÑ ¾Ë°í¸®Áò ¸¸µé±â
-		// Á¶°Ç? Âü : °ÅÁş
+		// ì‚¼í•­ì—°ì‚°ìë¥¼ í†µí•œ ì•Œê³ ë¦¬ì¦˜ ë§Œë“¤ê¸°
+		// ì¡°ê±´? ì°¸ : ê±°ì§“
 		return num1 == num2 ? 0 : (num1 > num2 ? num1 : num2);
 		
 	}
